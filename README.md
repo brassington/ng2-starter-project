@@ -1,4 +1,6 @@
 # Building an Angular 2 Website Using Routes
+
+[![Join the chat at https://gitter.im/onehungrymind/ng2-starter-project](https://badges.gitter.im/onehungrymind/ng2-starter-project.svg)](https://gitter.im/onehungrymind/ng2-starter-project?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 This is a simple Angular 2 website using the brand new router. It demonstrates how to build components, configure routes, inject services, and use the `@Input` decorator to bind properties to components. It was built using the Angular CLI and thus conforms to the agreed-upon best Angular 2 practices outlined [here](https://angular.io/docs/ts/latest/guide/style-guide.html).
 
 ## Dependencies
