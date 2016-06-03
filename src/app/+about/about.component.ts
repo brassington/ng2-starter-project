@@ -15,15 +15,15 @@ export class AboutComponent implements OnInit {
   additional: string = 'This is the additional message';
   newProp: NewProp;
 
-  constructor(public stateService: MessageService) {
+  constructor(public messageService: MessageService) {
   }
 
   ngOnInit() {
-    this.message = this.stateService.getMessage();
-    this.newProp = this.stateService.getNewProp();
+    this.message = this.messageService.getMessage();
+    this.newProp = this.messageService.getNewProp();
   }
 
   updateMessage(m: string): void {
-    this.stateService.setMessage(m);
+    this.messageService.setMessage(m);
   }
 }
