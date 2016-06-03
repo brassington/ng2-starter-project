@@ -1,11 +1,13 @@
 import {Component, OnInit} from '@angular/core';
 import {MessageService} from '../shared';
+import {GadgetsComponent} from '../+gadgets/gadgets.component';
 
 @Component({
   moduleId: module.id,
   selector: 'app-home',
   templateUrl: 'home.component.html',
-  styleUrls: ['home.component.css']
+  styleUrls: ['home.component.css'],
+  directives: [GadgetsComponent]
 })
 export class HomeComponent implements OnInit {
   title: string = 'Home Page';
